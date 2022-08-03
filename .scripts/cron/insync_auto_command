@@ -1,0 +1,27 @@
+#!/bin/bash
+
+previous_status="$(upower -d | grep on-battery | cut -d : -f2 | tr -d '[:space:]')"
+
+
+while true; do
+	current_status="$(upower -d | grep on-battery | cut -d : -f2 | tr -d '[:space:]')"
+
+	#echo "previous_status: $previous_status";
+	#echo "current_status: $current_status";
+
+	if [[ $previous_status != $current_status ]]; then
+		# if current_status and previous_status are different
+		#echo "!!!!!!!!!!!!!!!!!!!!!";
+
+		if [[ $current_status = 'no' ]]; then
+			insync resume_syncing
+		elif [[ $current_status = 'yes' ]]; then
+			insync pause_syncing
+		fi
+
+		previous_status=$current_status;
+		#echo $(insync get_status)
+	fi
+
+	sleep 10;
+done

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+gitall() {
+  local dir=${1:-$PWD}
+  find "$dir" -mindepth 1 -maxdepth 1 -type d -exec sh -c '
+    for i; do
+      printf "\n%s\n" "$i"
+      (cd "$i" && exec git remote update)
+    done' _ {} +
+}

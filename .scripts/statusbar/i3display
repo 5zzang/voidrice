@@ -1,0 +1,4 @@
+#!/bin/sh
+
+BRIGHTNESS=$(light)
+printf %.0f $BRIGHTNESS

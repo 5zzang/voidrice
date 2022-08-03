@@ -1,0 +1,9 @@
+#!/bin/sh
+
+case $BLOCK_BUTTON in
+	1) $TERMINAL -e nmtui ;;
+esac
+
+printf "%s %s" "$wifiicon" "$(cat /sys/class/net/w*/operstate | sed "s/down/No Connection/;s/up/$(curl ifconfig.me) /")"
+#printf "%s %s" "$wifiicon" "$(cat /sys/class/net/e*/operstate | sed "s/down/No Connection/;s/up/$(curl ifconfig.me) /")"
+

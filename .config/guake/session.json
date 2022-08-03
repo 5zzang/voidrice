@@ -1,0 +1,139 @@
+{
+    "schema_version": 2,
+    "timestamp": 1659531338,
+    "workspace": {
+        "0": [
+            [
+                {
+                    "panes": [
+                        {
+                            "type": "dual_v",
+                            "directory": null
+                        },
+                        {
+                            "type": "term",
+                            "directory": "/home/mike/GoogleDrive/Settings/ArchLinux/.config/rofi",
+                            "custom_colors": {
+                                "fg_color": null,
+                                "bg_color": null,
+                                "palette": null
+                            }
+                        },
+                        {
+                            "type": "term",
+                            "directory": "/home/mike/git/5zzang/voidrice/.config",
+                            "custom_colors": {
+                                "fg_color": null,
+                                "bg_color": null,
+                                "palette": null
+                            }
+                        }
+                    ],
+                    "label": "Workspace",
+                    "custom_label_set": true
+                },
+                {
+                    "panes": [
+                        {
+                            "type": "dual_v",
+                            "directory": null
+                        },
+                        {
+                            "type": "term",
+                            "directory": "/home/mike/git/mcp/java/mcp-gw2-batch-dci",
+                            "custom_colors": {
+                                "fg_color": null,
+                                "bg_color": null,
+                                "palette": null
+                            }
+                        },
+                        {
+                            "type": "term",
+                            "directory": "/home/mike/git/mcp/java/mcp-gw2-callback-service",
+                            "custom_colors": {
+                                "fg_color": null,
+                                "bg_color": null,
+                                "palette": null
+                            }
+                        }
+                    ],
+                    "label": "Java",
+                    "custom_label_set": false
+                },
+                {
+                    "panes": [
+                        {
+                            "type": "dual_v",
+                            "directory": null
+                        },
+                        {
+                            "type": "term",
+                            "directory": "/home/mike/git/mcp/devops/mcp-jenkins-pipelines-config",
+                            "custom_colors": {
+                                "fg_color": null,
+                                "bg_color": null,
+                                "palette": null
+                            }
+                        },
+                        {
+                            "type": "term",
+                            "directory": "/home/mike/git/mcp/docker/docker-devops-workspace",
+                            "custom_colors": {
+                                "fg_color": null,
+                                "bg_color": null,
+                                "palette": null
+                            }
+                        }
+                    ],
+                    "label": "DevOps",
+                    "custom_label_set": false
+                },
+                {
+                    "panes": [
+                        {
+                            "type": "term",
+                            "directory": "/home/mike/git/mcp/php/oxpay-wordpress-vistra-plugin",
+                            "custom_colors": {
+                                "fg_color": null,
+                                "bg_color": null,
+                                "palette": null
+                            }
+                        }
+                    ],
+                    "label": "PHP",
+                    "custom_label_set": false
+                },
+                {
+                    "panes": [
+                        {
+                            "type": "term",
+                            "directory": "/home/mike/git/mcp/mobile/mcp-ffastpay-o2o-sunmi",
+                            "custom_colors": {
+                                "fg_color": null,
+                                "bg_color": null,
+                                "palette": null
+                            }
+                        }
+                    ],
+                    "label": "Mobile",
+                    "custom_label_set": false
+                },
+                {
+                    "panes": [
+                        {
+                            "type": "term",
+                            "directory": "/home/mike/git/project-x/codereview",
+                            "custom_colors": {
+                                "fg_color": null,
+                                "bg_color": null,
+                                "palette": null
+                            }
+                        }
+                    ],
+                    "label": "Terminal",
+                    "custom_label_set": false
+                }
+            ]
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+string=$(autorandr --detected)
+if [[ $string == *'multi'* ]]; then
+	exec multi.sh
+elif [[ $string == *'single'* ]]; then
+	exec single.sh
+elif [[ $string == *'hdmi2'* ]]; then
+	exec hdmi2.sh
+fi

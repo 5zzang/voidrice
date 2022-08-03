@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#DATE=$(date +%D)
+DATE="040920"
+
+wget "https://www.factset.com/hubfs/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_${DATE///}.pdf" -P ~/Documents/Factset_Reports/
